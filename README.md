@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @seilorjunior
-- 🐋 I really like to work with devops,containers 📦🗃️ and sre 💻.
+- 🐋 I really like to work with devops,cloud,containers 📦🗃️ and sre 💻.
 - 💻 I am current working at @Microsoft 
 
 
