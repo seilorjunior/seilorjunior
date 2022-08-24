@@ -2,11 +2,9 @@
 - 🐋 I really like to work with devops,cloud,containers 📦🗃️ and sre 💻.
 - 💻 I am current working at @Microsoft 
 
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=seilorjunior&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-
-
-<!---
-seilorjunior/seilorjunior is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+ <div>
+  <a href="https://github.com/seilorjunior">
+    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=seilorjunior&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+    <img height="150em" src="https://github.com/seilorjunior/seilorjunior/blob/output/github-contribution-grid-snake.svg"/> 
+    
+</div>
