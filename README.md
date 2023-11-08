@@ -4,6 +4,6 @@
 
  <div>
   <a href="https://github.com/seilorjunior">
-    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=seilorjunior&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>   
-    
+    <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=seilorjunior" />
+    <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=seilorjunior&layout=compact&langs_count=8&card_width=320" />    
 </div>
