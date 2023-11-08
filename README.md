@@ -4,7 +4,6 @@
 
  <div>
   <a href="https://github.com/seilorjunior">
-    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=seilorjunior&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-    <img height="150em" src="https://github.com/seilorjunior/seilorjunior/blob/output/github-contribution-grid-snake.svg"/> 
+    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=seilorjunior&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>   
     
 </div>
