@@ -13,4 +13,4 @@
 </div>
 
 ## Snake Animation
-![GitHub Contribution Snake](https://raw.githubusercontent.com/seilorjunior/output/github-contribution-grid-snake.svg)
+![GitHub Contribution Snake](https://github.com/seilorjunior/seilorjunior/blob/output/github-snake-dark.svg)
