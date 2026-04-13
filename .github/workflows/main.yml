@@ -13,7 +13,7 @@ jobs:
     steps:
       # Checkout the repository
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       # Generate Snake Animation
       - name: Generate Snake Animation
