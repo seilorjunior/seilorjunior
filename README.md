@@ -37,7 +37,8 @@
   <img src="https://streak-stats.demolab.com/?user=seilorjunior&theme=radical&hide_border=false" alt="GitHub Streak Stats" />
 </div>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=seilorjunior&layout=compact&langs_count=8&card_width=320&theme=radical&cache_seconds=86400" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=seilorjunior&theme=radical" alt="Repos per Language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=seilorjunior&theme=radical" alt="Most Commit Language" />
 </div>
 
 ---
