@@ -34,10 +34,10 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <a href="https://github.com/seilorjunior">
-    <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=seilorjunior&show_icons=true&theme=radical" alt="seilorjunior's GitHub stats" />
-    <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=seilorjunior&layout=compact&langs_count=8&card_width=320&theme=radical" alt="Top Languages" />
-  </a>
+  <img src="https://streak-stats.demolab.com/?user=seilorjunior&theme=radical&hide_border=false" alt="GitHub Streak Stats" />
+</div>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=seilorjunior&layout=compact&langs_count=8&card_width=320&theme=radical&cache_seconds=86400" alt="Top Languages" />
 </div>
 
 ---
