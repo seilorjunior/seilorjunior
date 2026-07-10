@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0078D4&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+seilorjunior+%F0%9F%91%8B;DevOps+Engineer+%E2%9A%99%EF%B8%8F;Cloud+Architect+%E2%98%81%EF%B8%8F;App+Modernization+%26+AI+%F0%9F%A4%96" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0078D4&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+seilorjunior+%F0%9F%91%8B;App+Modernization+%26+AI+%F0%9F%A4%96;Cloud+Architect+%E2%98%81%EF%B8%8F;DevOps+Engineer+%E2%9A%99%EF%B8%8F" alt="Typing SVG" />
 </div>
 
 <p align="center">
-  <em>DevOps Engineer · Cloud Architect · Application Modernization &amp; AI · Microsoft employee</em>
+  <em>Application Modernization &amp; AI · Cloud Architect · DevOps Engineer</em>
 </p>
 
 <p align="center">
