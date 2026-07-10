@@ -107,8 +107,7 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=seilorjunior&show_icons=true&theme=radical&hide_border=false&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=seilorjunior&layout=compact&theme=radical&hide_border=false&langs_count=8" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=seilorjunior&theme=radical" alt="Profile Details" />
 </div>
 
 <div align="center">
@@ -120,12 +119,9 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=seilorjunior&theme=radical" alt="Most Commit Language" />
 </div>
 
----
-
-## 🏆 GitHub Trophies
-
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=seilorjunior&theme=radical&no-frame=false&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=seilorjunior&theme=radical" alt="Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=seilorjunior&theme=radical&utcOffset=-3" alt="Productive Time" />
 </div>
 
 ---
