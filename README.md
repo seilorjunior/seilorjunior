@@ -31,7 +31,7 @@
 <p>
   <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure"/>
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
-  <img src="https://img.shields.io/badge/OpenShift-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white" alt="OpenShift"/>
+  <img src="https://img.shields.io/badge/Azure_Red_Hat_OpenShift-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white" alt="Azure Red Hat OpenShift (ARO)"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" alt="Helm"/>
 </p>
@@ -40,6 +40,7 @@
 <p>
   <img src="https://img.shields.io/badge/Microservices-FF6C37?style=for-the-badge&logo=serverfault&logoColor=white" alt="Microservices"/>
   <img src="https://img.shields.io/badge/Serverless-FD5750?style=for-the-badge&logo=serverless&logoColor=white" alt="Serverless"/>
+  <img src="https://img.shields.io/badge/Azure_Functions-0062AD?style=for-the-badge&logo=azurefunctions&logoColor=white" alt="Azure Functions"/>
 </p>
 
 #### 🔁 CI/CD & DevOps
@@ -54,7 +55,7 @@
 <p>
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
   <img src="https://img.shields.io/badge/Bicep-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white" alt="Bicep"/>
-  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="Ansible"/>
+  <img src="https://img.shields.io/badge/Azure_Developer_CLI-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure Developer CLI (azd)"/>
 </p>
 
 #### 🔒 Code Quality & Security
@@ -66,16 +67,19 @@
 
 #### 🌐 API Gateway & Messaging
 <p>
+  <img src="https://img.shields.io/badge/Azure_API_Management-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure API Management"/>
   <img src="https://img.shields.io/badge/Kong-003459?style=for-the-badge&logo=kong&logoColor=white" alt="Kong API Gateway"/>
   <img src="https://img.shields.io/badge/NATS-27AAE1?style=for-the-badge&logo=natsdotio&logoColor=white" alt="NATS"/>
 </p>
 
 #### 🗄️ Databases & Data Stores
 <p>
+  <img src="https://img.shields.io/badge/Azure_SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="Azure SQL"/>
+  <img src="https://img.shields.io/badge/Cosmos_DB-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure Cosmos DB"/>
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
   <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+  <img src="https://img.shields.io/badge/Azure_Managed_Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Azure Managed Redis"/>
 </p>
 
 #### 📊 Observability & Tracing
@@ -88,6 +92,8 @@
 #### 💻 Languages, Scripting & Tools
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#"/>
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"/>
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell"/>
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
