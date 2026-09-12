@@ -1,164 +1,68 @@
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0078D4&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+seilorjunior+%F0%9F%91%8B;App+Modernization+%26+AI+%F0%9F%A4%96;Cloud+Architect+%E2%98%81%EF%B8%8F;DevOps+Engineer+%E2%9A%99%EF%B8%8F" alt="Typing SVG" />
-</div>
+# Hi, I'm seilorjunior 👋
 
-<p align="center">
-  <em>Application Modernization &amp; AI · Cloud Architect · DevOps Engineer</em>
-</p>
+**Application Modernization & AI · Cloud Architecture · DevOps**
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/seilorjunior"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://github.com/seilorjunior"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
-  <img src="https://komarev.com/ghpvc/?username=seilorjunior&label=Profile%20views&color=0078D4&style=flat-square" alt="Profile views"/>
-</p>
+I focus on modernizing applications on **Azure**, building cloud-native systems with **Kubernetes**, and making delivery repeatable through **CI/CD** and **Infrastructure as Code**. My public projects explore AI API migration, resilient API gateways, and event-driven application integration.
 
----
+Currently working at [Microsoft](https://www.microsoft.com). Open to collaborating on DevOps tooling and cloud infrastructure.
 
-## 🙋 About Me
+## Featured Projects
 
-- 🐋 Passionate about **DevOps**, **Cloud Computing**, **Containers** 📦, **Application Modernization**, and **AI** 🤖
-- 💻 Currently working at [@Microsoft](https://www.microsoft.com)
-- ☁️ Focused on **Azure**, **Kubernetes**, and building reliable, scalable systems
-- 🌱 Always learning — exploring **AI/ML integration** in cloud-native workflows
-- 🤝 Open to collaborating on open-source **DevOps tooling** and **cloud infrastructure** projects
-- 💬 Ask me about **CI/CD**, **Infrastructure as Code**, and **observability**
+### [Azure OpenAI Migration Toolkit](https://github.com/seilorjunior/openai-sdk-and-api-v1-migration)
 
----
+- **Problem:** Assess migration from Azure AI Inference SDK and legacy endpoints to the OpenAI SDK and `/openai/v1`.
+- **My contribution:** Implemented a read-only MCP assessment service. The proof of concept includes dual-mode APIM routing and structured migration findings.
+- **Stack & deliverable:** Python, OpenAI SDK, Azure OpenAI, API Management, and MCP — a migration-assessment POC with sample policies and tests.
 
-## 🛠️ Tech Stack
+### [Load-Balanced Azure AI Content Safety](https://github.com/seilorjunior/apim-lb-content-safety)
 
-#### ☁️ Cloud & Container Platforms
-<p>
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
-  <img src="https://img.shields.io/badge/Azure_Red_Hat_OpenShift-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white" alt="Azure Red Hat OpenShift (ARO)"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" alt="Helm"/>
-</p>
+- **Problem:** Expose two Azure AI Content Safety accounts through a shared API gateway with resilience controls.
+- **My contribution:** Added gateway request-size checks; the template also includes managed-identity authentication, throttling, and retries.
+- **Stack & deliverable:** Bicep, Azure Developer CLI (`azd`), API Management, Azure Functions, and Python — an IaC deployment template with proxy tests.
 
-#### 🏗️ Architecture
-<p>
-  <img src="https://img.shields.io/badge/Microservices-FF6C37?style=for-the-badge&logo=serverfault&logoColor=white" alt="Microservices"/>
-  <img src="https://img.shields.io/badge/Serverless-FD5750?style=for-the-badge&logo=serverless&logoColor=white" alt="Serverless"/>
-  <img src="https://img.shields.io/badge/Azure_Functions-0062AD?style=for-the-badge&logo=azurefunctions&logoColor=white" alt="Azure Functions"/>
-</p>
+### [Event-Driven Azure Messaging](https://github.com/seilorjunior/eventgrid-funout)
 
-#### 🔁 CI/CD & DevOps
-<p>
-  <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white" alt="Azure DevOps"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins"/>
-</p>
+- **Problem:** Connect queued order publication to push-based distribution for billing and shipping subscribers.
+- **My contribution:** Implemented the order publisher with correlation IDs; the demo forwards Service Bus messages to Event Grid as CloudEvents.
+- **Stack & deliverable:** C#, ASP.NET Core, Azure Service Bus, Event Grid, Azure Functions, and `azd` — a deployable multi-service messaging demo.
 
-#### ⚙️ IaC & Automation
-<p>
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
-  <img src="https://img.shields.io/badge/Bicep-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white" alt="Bicep"/>
-  <img src="https://img.shields.io/badge/Azure_Developer_CLI-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure Developer CLI (azd)"/>
-</p>
+## Core Expertise
 
-#### 🔒 Code Quality & Security
-<p>
-  <img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white" alt="SonarQube"/>
-  <img src="https://img.shields.io/badge/Black_Duck-000000?style=for-the-badge&logo=synopsys&logoColor=white" alt="Black Duck"/>
-  <img src="https://img.shields.io/badge/Nexus_Repository-1B1C30?style=for-the-badge&logo=sonatype&logoColor=white" alt="Nexus Repository"/>
-</p>
+- **Cloud & architecture:** Azure, Kubernetes, microservices, serverless, and Azure Functions.
+- **Delivery & automation:** GitHub Actions, Azure DevOps, Terraform, Bicep, and `azd`.
+- **Development:** Python, C#/.NET, PowerShell, and Bash.
+- **Observability:** Prometheus, Grafana, and Jaeger.
 
-#### 🌐 API Gateway & Messaging
-<p>
-  <img src="https://img.shields.io/badge/Azure_API_Management-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure API Management"/>
-  <img src="https://img.shields.io/badge/Kong-003459?style=for-the-badge&logo=kong&logoColor=white" alt="Kong API Gateway"/>
-  <img src="https://img.shields.io/badge/NATS-27AAE1?style=for-the-badge&logo=natsdotio&logoColor=white" alt="NATS"/>
-</p>
+<details>
+<summary>More technologies I work with</summary>
 
-#### 🗄️ Databases & Data Stores
-<p>
-  <img src="https://img.shields.io/badge/Azure_SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="Azure SQL"/>
-  <img src="https://img.shields.io/badge/Cosmos_DB-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure Cosmos DB"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch"/>
-  <img src="https://img.shields.io/badge/Azure_Managed_Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Azure Managed Redis"/>
-</p>
+- **Containers:** Azure Red Hat OpenShift (ARO), Docker, and Helm.
+- **CI/CD & quality:** Jenkins, SonarQube, Black Duck, and Nexus Repository.
+- **APIs & messaging:** Azure API Management, Kong, and NATS.
+- **Data:** Azure SQL, Cosmos DB, MongoDB, PostgreSQL, Elasticsearch, and Azure Managed Redis.
+- **Languages & tools:** Go, Git, Linux, and VS Code.
 
-#### 📊 Observability & Tracing
-<p>
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus"/>
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana"/>
-  <img src="https://img.shields.io/badge/Jaeger-66CFE3?style=for-the-badge&logo=jaeger&logoColor=black" alt="Jaeger"/>
-</p>
+</details>
 
-#### 💻 Languages, Scripting & Tools
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#"/>
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"/>
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell"/>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-</p>
+## Selected Activity
 
----
+[Explore my repositories](https://github.com/seilorjunior?tab=repositories) · [View contributions on GitHub](https://github.com/seilorjunior?tab=overview)
 
-## 📊 GitHub Stats
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=seilorjunior&theme=radical" alt="Contribution activity summary for seilorjunior; use the GitHub contributions link above for details." />
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=seilorjunior&theme=radical" alt="Profile Details" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=seilorjunior&theme=radical&hide_border=false" alt="GitHub Streak Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=seilorjunior&theme=radical" alt="Repos per Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=seilorjunior&theme=radical" alt="Most Commit Language" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=seilorjunior&theme=radical" alt="Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=seilorjunior&theme=radical&utcOffset=-3" alt="Productive Time" />
-</div>
-
----
-
-## 🐍 Contribution Snake
+<details>
+<summary>Contribution snake animation</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seilorjunior/seilorjunior/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/seilorjunior/seilorjunior/output/github-snake.svg" />
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/seilorjunior/seilorjunior/output/github-snake-dark.svg" />
+  <img alt="Animated snake tracing seilorjunior's GitHub contribution grid." src="https://raw.githubusercontent.com/seilorjunior/seilorjunior/output/github-snake.svg" />
 </picture>
 
----
+</details>
 
-## 📈 Contribution Activity
+## Connect with Me
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=seilorjunior&theme=redical&hide_border=false&area=true" alt="Contribution Activity Graph" />
-</div>
+Ask me about **CI/CD**, **Infrastructure as Code**, **observability**, or collaborating on cloud-native projects.
 
----
-
-## 💡 Dev Quote
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
-</div>
-
----
-
-## 📫 Connect with Me
-
-<p align="center">
-  <a href="https://github.com/seilorjunior"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://www.linkedin.com/in/seilorjunior"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-</p>
-
-<div align="center">
-  <sub>⭐️ From <a href="https://github.com/seilorjunior">seilorjunior</a></sub>
-</div>
+[LinkedIn](https://www.linkedin.com/in/seilorjunior) · [GitHub](https://github.com/seilorjunior)
