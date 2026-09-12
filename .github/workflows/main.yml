@@ -1,35 +1,43 @@
-name: Generate Datas
+name: Publish Contribution Snake
 
 on:
   schedule: # Execute every 12 hours
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
+permissions: {}
+
+concurrency:
+  group: contribution-snake-output
+  cancel-in-progress: false
+
 jobs:
   build:
-    name: Update Data and Deploy
+    name: Generate SVGs and publish to output branch
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
 
     steps:
       # Checkout the repository
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
 
       # Generate Snake Animation
       - name: Generate Snake Animation
-        uses: Platane/snk@v3
-        id: snake-gif
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-
-      # Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4.0.0
+      # Publish generated SVGs to the output branch
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@c05ee637ec73429400a359430db8e5629f3f2564 # v4.0.0
         with:
           target_branch: output
           build_dir: dist
