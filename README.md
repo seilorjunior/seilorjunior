@@ -48,18 +48,11 @@ Currently working at [Microsoft](https://www.microsoft.com). Open to collaborati
 
 [Explore my repositories](https://github.com/seilorjunior?tab=repositories) · [View contributions on GitHub](https://github.com/seilorjunior?tab=overview)
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=seilorjunior&theme=radical" alt="Contribution activity summary for seilorjunior; use the GitHub contributions link above for details." />
-
-<details>
-<summary>Contribution snake animation</summary>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seilorjunior/seilorjunior/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/seilorjunior/seilorjunior/output/github-snake.svg" />
   <img alt="Animated snake tracing seilorjunior's GitHub contribution grid." src="https://raw.githubusercontent.com/seilorjunior/seilorjunior/output/github-snake.svg" />
 </picture>
-
-</details>
 
 ## Connect with Me
 
