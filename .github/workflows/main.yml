@@ -20,12 +20,6 @@ jobs:
       contents: write
 
     steps:
-      # Checkout the repository
-      - name: Checkout Repository
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
-        with:
-          persist-credentials: false
-
       # Generate Snake Animation
       - name: Generate Snake Animation
         uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
